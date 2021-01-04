@@ -6,8 +6,19 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-highlight{
-    color: orange;
+    background: -webkit-linear-gradient(45deg,red,#00ff37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent
+}
+p{
+    color:lightslategrey;
+}
+.highlight-text{
+    color: lightsalmon;
 }
 
 .half-with{
@@ -45,4 +56,40 @@ section{
 }
 d{
     color: tomato;
+}
+.Dream-Area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream{
+    background: -webkit-linear-gradient(60deg,red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.singel-expe{
+box-shadow: 10px 10px 50px gray;
+border-radius: 5px;
+height: 80%;
+background-color: white;
+
+}
+.expe-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#Full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
