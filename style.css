@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: orange;
+}
+
+.half-with{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-with img{
+    width: 100%;
+}
+.top-bannar{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-botton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font: 800;
+}
+.Resume-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font: 800;
+}
+d{
+    color: tomato;
+}
